@@ -1,0 +1,6 @@
+git remote add repoB https://github.com/Rossgu25487/studio.git
+git fetch repoB
+git subtree add --prefix=User-registeration repoB main --squash
+git add .
+git commit -m "Add repository as subtree to User-registeration"
+git push origin main
